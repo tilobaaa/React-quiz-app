@@ -1,0 +1,79 @@
+
+.before{
+    padding: 2rem;
+    margin: 5rem auto;
+    text-align: center;
+    
+    border: 1px;
+    border-radius: 15px;
+    background-color: darkgrey;
+    box-shadow: 10px;
+    max-width: 400px;
+}
+
+.before input{
+    max-width: 2rem;
+    padding: 1rem;
+}
+
+.before button{
+    margin: 2rem 1rem 1rem;
+    padding: 1rem;
+    border-radius: 15px; 
+    border: none;
+    background-color: indigo;
+    color: white;
+
+    
+}
+
+.before button:hover{
+    cursor: pointer;
+}
+
+.before button:disabled{
+    cursor: not-allowed;
+    color: white;
+    background-color: rgb(73, 73, 96);
+}
+
+.before p{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+label{
+    display: block;
+}
+
+input{
+    padding-right: 1rem;
+}
+
+input:hover, .submitbtn:hover, .homebtn:hover{
+    cursor:pointer
+}
+
+.homebtn, .submitbtn{
+    margin: 2rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 0;
+}
+
+.homebtn{
+    background-color: rgb(43, 147, 226);
+    color: white;
+}
+
+.homebtn:hover{
+    background-color: rgb(23, 71, 109);
+}
